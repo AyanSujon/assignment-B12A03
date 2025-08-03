@@ -2,9 +2,9 @@
 var area = 100;
 //write your code here
 
-var divide = 2;
-    result = area / divide;
-    console.log(result);
+var divideBy = 2;
+    assetWillGet = area / divideBy;
+    console.log(assetWillGet);
 
 // ===================================================
 

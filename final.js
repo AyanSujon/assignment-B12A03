@@ -69,6 +69,17 @@ console.log(result)
 
 // ============================================
 
+//Problem 06 : (Current Salary ) */
+var experience = 30;
+var startingSalary = 45000;
+//write your code here
+
+for (var year = 1; year <= experience; year++) {
+    var currentSalary = (startingSalary / 100) * 5;
+    startingSalary = startingSalary + currentSalary;
+}
+console.log(startingSalary.toFixed(2));
+
 
 
 

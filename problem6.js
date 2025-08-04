@@ -26,19 +26,65 @@ var startingSalary = 45000;
 
 */
 
-//Problem 06 :  (Current Salary )  
-var experience = 30;
-var startingSalary = 45000;
-//write your code here
+// //Problem 06 :  (Current Salary )  
+// var experience = 30;
+// var startingSalary = 45000;
+// //write your code here
 
 // var increase5 = 5;
 // var currentSalary = startingSalary / 100 * 5 + startingSalary;
 // console.log(currentSalary);
 
-for (var a = 1; a <= count; a++) {
-    console.log('Count: ', a)
+
+// for(var salary = 1; salary = salary /100 *5; salary++ ){
+//     console.log(salary);
+// }
+// var currentSalary = startingSalary;
+
+// for( var year = 1; year <= experience; year++){
+//     currentSalary = startingSalary + startingSalary *5;
+//     console.log(currentSalary)
+// }
+
+// Solution 1
+/** Problem 06 : (Current Salary ) */
+var experience = 30;
+var startingSalary = 45000;
+
+// var currentSalary = startingSalary;
+
+// for (var year = 1; year <= experience; year++) {
+//     currentSalary *= 1.05; // প্রতি বছর ৫% বৃদ্ধি
+// }
+
+// currentSalary = currentSalary.toFixed(2); // দশমিকের পরে ২ ঘর পর্যন্ত
+
+// console.log(currentSalary);
+// ===============================================
+
+// // Solution 2
+// //Problem 06 : (Current Salary ) */
+// var experience = 3;
+// var startingSalary = 15000;
+// //write your code here
+
+// for (var year = 1; year <= experience; year++) {
+//     var currentSalary = (startingSalary * 5) / 100;
+//     startingSalary = startingSalary + currentSalary;
+// }
+// console.log(startingSalary.toFixed(2));
+// // ====================================================
+
+
+//Problem 06 : (Current Salary ) */
+var experience = 30;
+var startingSalary = 45000;
+//write your code here
+
+for (var year = 1; year <= experience; year++) {
+    var currentSalary = (startingSalary / 100) * 5;
+    startingSalary = startingSalary + currentSalary;
 }
-
-
+console.log(startingSalary.toFixed(2));
 
 

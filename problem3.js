@@ -26,8 +26,21 @@ var lastDay = 11 ;
 
 
  */
+// for( let num = 0; num < 5 ; num++){
+//     console.log(num);
+// }
 
+//Problem -03 ( Medicine Planner )
+var lastDay = 6 ;
+//write your code here
 
+for( var day = 1; day <= lastDay; day++ ){
+    if(day % 3 !== 0){
+        console.log(day + ' - rest');
+    }else{
+        console.log( day + ' - medicine');
+    }
+}
 
 
 

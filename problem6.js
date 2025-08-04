@@ -26,30 +26,10 @@ var startingSalary = 45000;
 
 */
 
-// //Problem 06 :  (Current Salary )  
-// var experience = 30;
-// var startingSalary = 45000;
-// //write your code here
-
-// var increase5 = 5;
-// var currentSalary = startingSalary / 100 * 5 + startingSalary;
-// console.log(currentSalary);
-
-
-// for(var salary = 1; salary = salary /100 *5; salary++ ){
-//     console.log(salary);
-// }
-// var currentSalary = startingSalary;
-
-// for( var year = 1; year <= experience; year++){
-//     currentSalary = startingSalary + startingSalary *5;
-//     console.log(currentSalary)
-// }
-
 // Solution 1
 /** Problem 06 : (Current Salary ) */
-var experience = 30;
-var startingSalary = 45000;
+// var experience = 30;
+// var startingSalary = 45000;
 
 // var currentSalary = startingSalary;
 
@@ -76,7 +56,7 @@ var startingSalary = 45000;
 // // ====================================================
 
 
-//Problem 06 : (Current Salary ) */
+//Problem 06 : (Current Salary )
 var experience = 30;
 var startingSalary = 45000;
 //write your code here

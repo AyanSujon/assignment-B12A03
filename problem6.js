@@ -19,15 +19,25 @@ Output ( up to 2 Decimal )
 
 
 নিচের কোড স্নিপেট টি কপি করো ,  প্রোগ্রাম টি কে  কমপ্লিট করো  এবং console.log করে ঠিক যেভাবে আউটুপুট দেখাতে বলা হয়েছে সে আউটপুট দেখাও
-/** Problem 06 :  (Current Salary )  
+//Problem 06 :  (Current Salary )  
 var experience = 30;
 var startingSalary = 45000;
 //write your code here
 
 */
 
+//Problem 06 :  (Current Salary )  
+var experience = 30;
+var startingSalary = 45000;
+//write your code here
 
+// var increase5 = 5;
+// var currentSalary = startingSalary / 100 * 5 + startingSalary;
+// console.log(currentSalary);
 
+for (var a = 1; a <= count; a++) {
+    console.log('Count: ', a)
+}
 
 
 

@@ -38,4 +38,4 @@ else if(money >= 10000){
 else{
     console.log('Chocolate');
 }
-   
+

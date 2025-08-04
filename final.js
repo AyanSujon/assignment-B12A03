@@ -80,6 +80,3 @@ for (var year = 1; year <= experience; year++) {
 }
 console.log(startingSalary.toFixed(2));
 
-
-
-

@@ -56,3 +56,4 @@ if(fileName.startsWith('#')||
 else{
     console.log('Delete');
 }
+

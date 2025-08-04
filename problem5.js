@@ -30,3 +30,41 @@ var student= { name: "jhankar" , roll: 1014 ,department: "cse" };
 
 
 */
+
+// var person01 = {
+// 	firstName: 'Ismail',
+// 	lastName: 'Jo',
+// 	employeeId: 101,
+// 	departmentCode: 'HR',
+// 	companyName: 'Alphacorp',
+// }
+// var lastThreeCh
+// if (person01.lastName.length < 3) {
+// 	lastThreeCh = person01.lastName
+// } else {
+// 	lastThreeCh = person01.lastName.slice(0, 3).toLowerCase()
+// }
+
+// // var lastThreeCh = person01.lastName.slice(0, 3).toLowerCase()
+// var result =
+// 	lastThreeCh +
+// 	person01.employeeId +
+// 	'@' +
+// 	person01.companyName.toLowerCase() +
+// 	'.com'
+// console.log(result)
+
+
+
+// ============================================
+
+// Problem 05 - ( PH Email Generator ) 
+var student= { name: "jhankar" , roll: 1014 ,department: "cse" };
+//write your code here
+
+var result = student.name.toLowerCase() + student.roll + '.' + student.department.toLowerCase() + '@ph.ac.bd';
+console.log(result)
+
+
+
+
